@@ -1,4 +1,5 @@
-# My Portifolio - Bootstrap version
+# Portifolio - Bootstrap version
+
 > Welcome, I am Emmanuel Mhango, a full-stack web developer. this is my portifolio showing my work. This portifolio is the platform where i have show cased the projects i have built. 
 
 ### Built With
