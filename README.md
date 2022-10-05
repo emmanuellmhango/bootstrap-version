@@ -12,14 +12,15 @@
 
 ### Getting Started
 
-** The project is built using HTML and CSS. Download the files and unzip them to any location on your computer.**
-** Open the index.html using any of your favorite browser.**
+The project is built using HTML and CSS. Download the files and unzip them to any location on your computer.
+Open the index.html using any of your favorite browser.**
 
 
 ### Authors
 
-** Emmanuel Mhango [emmanuellmhango@gmail.com](mailto://emmanuellmhango@gmail.com)
-** Amanuel Galema [amexabee@yahoo.com](mailto://amexabee@yahoo.com)
+Emmanuel Mhango [emmanuellmhango@gmail.com](mailto://emmanuellmhango@gmail.com)
+
+Amanuel Galema [amexabee@yahoo.com](mailto://amexabee@yahoo.com)
 
 
 #### 📝 License
