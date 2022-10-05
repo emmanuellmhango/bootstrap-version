@@ -4,33 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>My Portifolio</title>
 </head>
-<body>
-    <div class="container-fluid">
-        <nav>
-
-        </nav>
-    </div>
-
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <div class="container">
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">My Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hiddenMenu">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="hiddenMenu">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a href="#" class="nav-link">Portifolio</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
         <!-------------------->
-        <row>
+        <div class="row mt-5 pt-5">
+            <h1 class="display-2">I'm Emmanuel <br> glad to see you</h1>
+            <p class="mt-5">I’m a software developer! I can help you build a product , feature or website Look 
+                through some of my work and experience! If you like what you see and have a project you need coded, don’t 
+                hestiate to contact me.</p>
+            <div class="pd-5 md-5">
+                <ul class="list-inline ">
+                    <li class="list-inline-item"><a href="#"><img src="images/twit.png" alt="Twitter Logo"></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="images/Vector.png" alt="Linkedin Logo"><img src="images/in.png" alt="Linkedin Logo"></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="images/m.png" alt="Mi Logo"></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="images/cat.png" alt="Guthub Logo"></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="images/peace.png" alt="Alison Logo"></a></li>    
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-5">
+            <img class="card-img-top" src="images/tonic-project.png" alt="Tonic App Screenshot">
+            <div class="card-body">
+              <h4 class="card-title">Tonic</h4>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+        </div>
+        <div class="card mt-5">
+            <img class="card-img-top" src="images/multi-post-stories-project.jpg" alt="Facebook Project Screenshot">
+            <div class="card-body">
+              <h4 class="card-title">Multi-Post Stories</h4>
+              <p class="card-text">A daily selection of privately personalized reads;
+                no accounts or sign-ups required.</p>
+              <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+        </div>
 
-        </row>
-        <!-------------------->
-        <row>
-            
-        </row>
-        <!-------------------->
-        <row>
-            
-        </row>
-        <!-------------------->
         <row>
             
         </row>
