@@ -83,15 +83,32 @@
         <div class="card-body">
           <h4 class="card-title">Tonic</h4>
           <p class="card-text">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
           </p>
           <ul class="list-unstyled list-inline">
             <li class="list-inline-item"><span class="badge bg-secondary">html</span></li>
             <li class="list-inline-item"><span class="badge bg-secondary">css</span></li>
             <li class="list-inline-item"><span class="badge bg-secondary">javascript</span></li>
           </ul>
-          <a href="#" class="btn btn-primary">See Project</a>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myTonicAppProjectModal">
+            See Project
+          </button>
+          <div class="modal" id="myTonicAppProjectModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Tonic App</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="card mt-5">
@@ -186,7 +203,8 @@
                   </li>
                 </ul>
             </div>
-            <ul class="list-unstyled">
+            <button class="btn btn-primary mt-3">Get My Resume</button>
+            <ul class="list-unstyled mt-4">
                 <li><h4>Languages</h3>
                     <ul class="list-unstyled">
                         <li class="bg-secondary">
