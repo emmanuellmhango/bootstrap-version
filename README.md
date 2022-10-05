@@ -18,8 +18,8 @@
 
 ### Authors
 
-> Emmanuel Mhango [emmanuellmhango@gmail.com](mailto://emmanuellmhango@gmail.com)
-> Amanuel Galema [amexabee@yahoo.com](mailto://amexabee@yahoo.com)
+** Emmanuel Mhango [emmanuellmhango@gmail.com](mailto://emmanuellmhango@gmail.com)
+** Amanuel Galema [amexabee@yahoo.com](mailto://amexabee@yahoo.com)
 
 
 #### 📝 License
